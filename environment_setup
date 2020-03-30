@@ -1,0 +1,7 @@
+# shell script
+
+conda create --name covid python=3.6
+# type yes when prompted
+
+conda activate covid
+conda install -c pytorch -c anaconda -c conda-forge --file requirements
